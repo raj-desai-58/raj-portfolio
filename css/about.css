@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+.secendry-cont {
+    display: none;
+}
+
+.navbar {
+    background-color: wheat;
+}
+
+.main-cont {
+    height: 30rem;
+    width: 50rem;
+    margin: 3rem auto;
+}
+
+.raj-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: wheat;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(143, 157, 86);
+    padding: 7px .5rem;
+}
+
+.raj-container:hover {
+    box-shadow: 5px 5px 10px rgb(108, 108, 50);
+    border-radius: 12px;
+    transition-duration: .2s;
+}
+
+.ab-img {
+    display: inline-block;
+    height: 30%;
+    width: 20%;
+    background: url('../images/IMG_20230514_175838.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.ab-img:hover {
+    height: 31%;
+    width: 21%;
+    box-shadow: 5px 5px 17px gray;
+    transition-duration: .3s;
+}
+
+.containt {
+    display: block;
+    height: 97%;
+    width: 75%;
+    background-color: rgb(245, 237, 223);
+    margin-left: 2.5rem;
+}
+
+.tbl {
+    margin-top: .3rem;
+    margin-left: 1rem;
+    /* border: 1px solid wheat; */
+    border-color: wheat;
+    height: 97%;
+    width: 97%;
+}
+
+th {
+    text-align: left;
+    width: 35%;
+    padding: 0 20px;
+}
+
+td {
+    text-align: left;
+    width: 45%;
+    padding: 0 20px;
+}
+
+/* NOW , GIVE A RISPONSIVENESS TO MY ABOUT-US PAGE */
+
+@media screen and (max-width:800px) {
+    .main-cont {
+        height: 25rem;
+        width: 42rem;
+    }
+
+    .tbl {
+        margin-left: .5rem;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .main-cont {
+        height: 20rem;
+        width: 34rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main-cont {
+        height: 17rem;
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width:485px) {
+    .box {
+        margin: 0px 0px;
+    }
+
+    .main-cont {
+        height: 50rem;
+        width: 28rem;
+    }
+
+    .raj-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ab-img {
+        width: 60%;
+        height: 99%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .ab-img:hover {
+        width: 91%;
+        height: 100%;
+    }
+
+    .tbl {
+        margin: 1rem auto;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .main-cont {
+        height: 50rem;
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width:420px) {
+    body {
+        background-color: wheat;
+    }
+
+    .main-cont {
+        display: none;
+    }
+
+    .secendry-cont {
+        display: block;
+    }
+
+    td,
+    tr {
+        background-color: rgb(244, 204, 131);
+    }
+
+    .sec-img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .second-img {
+        width: 100%;
+        height: 20rem;
+        background-size: cover;
+    }
+}
+
+/* @media screen and (max-width:410px) {
+    .main-cont {
+        height: 50rem;
+        width: 20rem;
+    }
+
+    .ab-img {
+        width: 80%;
+    }
+} */
+
+/* 
+@media screen and (max-width:315px) {
+    .main-cont {
+        height: 50rem;
+        width: 15rem;
+    }
+
+    .ab-img {
+        width: 80%;
+    }
+} */
