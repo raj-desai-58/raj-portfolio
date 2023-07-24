@@ -225,6 +225,10 @@ i:hover {
     color: rgb(255, 0, 255);
 }
 
+.version p {
+    color: gray;
+}
+
 
 
 /* NOW GIVE A RISPONCIVNESS TO OUR WEBSITE */
