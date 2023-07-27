@@ -50,7 +50,7 @@ body {
 .btn {
     height: 1.9rem;
     width: 44%;
-    margin: 0 30%;
+    margin: 0 25%;
     border: none;
     border-radius: 20px;
     background-color: blue;
@@ -82,6 +82,11 @@ body {
 
     .btn {
         margin: 2% 27%;
+    }
+
+    body {
+        height: 85vh;
+        width: 100%;
     }
 }
 
