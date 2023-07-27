@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Age</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="containor">
+        <form action="#" method="post">
+            <div class="display-sec">
+                <input type="text" class="display" id="display" disabled>
+            </div>
+            <div class="input-sec">
+                <input name="somename" class="ip" id="input" placeholder="Enter Your Birth Year" required
+        oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        type = "number"
+        maxlength = "4"
+     />
+                <button type="button" class="btn" onclick="find_age();">Find My Age</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
