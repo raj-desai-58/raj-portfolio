@@ -57,3 +57,38 @@ body {
     color: white;
     font-weight: 700;
 }
+
+@media screen and (max-width: 530px) {
+    .containor {
+        padding: 1rem;
+    }
+
+    .btn {
+        margin: 2% 25%;
+    }
+
+    .ip {
+        height: 1.7rem;
+        padding: 0 .7rem;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .containor {
+        height: 45%;
+        width: 90%;
+    }
+
+    .btn {
+        margin: 2% 27%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .display {
+        height: 1.9rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+}
