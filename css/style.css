@@ -34,11 +34,11 @@
     text-decoration: none;
     font-size: 2rem;
     color: #fff;
+    transition: .1s ease-in-out;
 }
 
 .text-area p a:hover {
     text-shadow: 5px 5px 8px purple;
-    transition-duration: .1s;
 }
 
 .rj-nm2 {
@@ -57,6 +57,7 @@
     color: white;
     font-size: 1.2rem;
     text-shadow: 3px 3px 4px black;
+    transition: .2s ease-in-out;
 }
 
 .links a:hover {
@@ -64,7 +65,6 @@
     border: 2px solid black;
     padding: 5px 15px;
     border-radius: 11px;
-    transition-duration: .2s;
     background-color: white;
     color: black;
 }
@@ -117,11 +117,11 @@
     margin: 1rem 1.8rem;
     box-shadow: 2px 2px 5px black;
     border-radius: 5px;
+    transition: .2s ease-in-out;
 }
 
 .skil-box:hover {
     box-shadow: 5px 5px 15px black;
-    transition-duration: .2s;
 }
 
 .skill-img-cont {
@@ -206,11 +206,11 @@ textarea {
 i {
     color: #fff;
     font-size: 2.5rem;
+    transition: .2s ease-in-out;
 }
 
 i:hover {
     color: aqua;
-    transition-duration: .1s;
 }
 
 .copyright {
