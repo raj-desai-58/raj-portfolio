@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(217, 236, 244);
+    width: 100%;
+}
+
+.navbar a:hover {
+    background-color: rgb(160, 228, 255);
+    color: purple;
+    text-shadow: none;
+    text-shadow: 2px 1px 8px violet;
+    text-transform: uppercase;
+}
+
+.rj-nm {
+    display: none;
+}
+
+.rj-nm2 {
+    display: block;
+}
+
+.pro-box {
+    height: 25rem;
+    width: 90%;
+    background-color: aliceblue;
+    margin: 1% 5%;
+    padding: 1rem;
+    display: flex;
+    box-shadow: 3px 3px 30px black;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+    margin-bottom: 5rem;
+}
+
+.pro-box:hover {
+    border-radius: 20px;
+    box-shadow: 3px 3px 40px black;
+}
+
+.pro-img-cont {
+    height: 100%;
+    width: 50%;
+}
+
+.pro-img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.pro-contant {
+    width: 47%;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.pro-contant h2 {
+    text-align: center;
+    margin-bottom: .7rem;
+}
+
+.pro-contant p {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 600;
+}
+
+.pro-contant b {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.visit-btn {
+    width: 10rem;
+    height: 1.9rem;
+    margin-top: .5rem;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px gray;
+    transition: .4s ease-in-out;
+}
+
+.visit-btn:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 15px black;
+}
+
+.visit-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+@media screen and (max-width:800px) {
+    .pro-box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: .7rem;
+    }
+
+    .pro-contant {
+        width: 80%;
+    }
+
+    .pro-box {
+        height: 30rem;
+    }
+
+    .pro-img-cont {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .pro-img-cont {
+        width: 100%;
+    }
+
+    .pro-box {
+        height: 35rem;
+    }
+
+    .pro-contant {
+        width: 90%;
+    }
+
+    .pro-contant h2 {
+        margin-top: .7rem;
+    }
+
+    .ct {
+        margin: 1rem;
+    }
+}
