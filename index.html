@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Raj's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/utility.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/home.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="ld-nav">
+            <div class="name">
+                <span><a href="index.html">Raj's Portfolio</a></span>
+            </div>
+            <div class="links">
+                <a href="#home" class="linkd-page">home</a>
+                <a href="about.html" class="linkd-page">about</a>
+                <a href="#project" class="linkd-page">projects</a>
+                <a href="404.html" class="linkd-page">skills</a>
+                <a href="#contect" class="linkd-page">contect-me</a>
+            </div>
+        </div>
+
+        <div class="sd-nav">
+            <div class="name">
+                <span><a href="index.html">Raj's Portfolio</a></span>
+            </div>
+            <img src="resourcess/images/bar.png" alt="Open Menu" id="bar" onclick="DoOpen();">
+            <img src="resourcess/images/close.png" alt="Close Menu" id="close" onclick="DoClose();">    
+        </div>
+
+        <div id="drower">
+            <a href="#home">home</a>
+            <a href="about.html">about</a>
+            <a href="#project">projects</a>
+            <a href="404.html">skills</a>
+            <a href="#contect">contect-me</a>
+        </div>
+    </nav>
+
+    <div id="home">
+        <div class="bg-section">
+            <div class="circle">
+                <img src="resourcess/images/raj2.png" class="developer_bg" alt="">
+            </div>
+            <h1 class="dev-nm">Raj Desai</h1>
+            <h3 class="dynamic-content">developer</h3>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="home-containor">
+            <div class="dev-cont">
+                <div class="dev-img-sec">
+                    <img src="resourcess/images/raj.jpg" class="dev-img" alt="raj desai">
+                </div>
+                <div class="content-sec">
+                    <h1>Raj Desai</h1>
+                    <p>My Name Is Raj Desai. I Am Lives In Bhildi-Amreli-Gujrat-India. I Am Belongs From Middal Class Famaly, I Studys B.C.A. On Kamani Scaince Collage In Amreli. My Hobby Web-Devolopment. And I Am Trying To Find Some Job Om Any I.T Compnys. My All Skills And Development Skills Are Discribe Bilows. If You Required Any Kind Of Developer,So <a href="#contect" class="u-line">Contact Me.</a></p>
+                </div>
+            </div>            
+        </div>
+
+
+    </div>
+    
+    <h1 class="heading" id="project">my work</h1>
+
+    <div class="home-containor">
+
+        <div class="pro-sec full-size-project">
+            <div class="big-pro-img">
+                <img src="resourcess/pro_img/clg_web.png" alt="go to my collage website">
+            </div>
+            <div class="lable">
+                <h1>Collage Website</h1>
+                <p>Visit this website get addmission on CYBER-TECH.</p>
+                <button type="button" class="visit-btn" onclick="Collage();"><i class="fa-solid fa-link fa-beat fa-xl"></i>Visit Now</button>
+            </div>
+        </div>
+
+        <div id="projects">
+
+            <div class="pro-sec">
+                <img src="resourcess/pro_img/calculator.png" alt="project 3" class="pro-img">
+                <div class="lable">
+                    <h1>Web-Calculator</h1>
+                    <p>you can Calculat any number Hear.</p>
+                    <button type="button" class="visit-btn" onclick="Calculator();"><i class="fa-solid fa-link fa-beat fa-xl"></i>Visit Now</button>
+                </div>
+            </div>
+
+            <div class="pro-sec">
+                <img src="resourcess/pro_img/bulb_pro.png" alt="project 2" class="pro-img">
+                <div class="lable">
+                    <h1>Bulb Game</h1>
+                    <p>this is a bulb game, you can enjoy to playing this game.</p>
+                    <button type="button" class="visit-btn" onclick="Bulb();"><i class="fa-solid fa-link fa-beat fa-xl"></i>Visit Now</button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <footer id="contect">
+            <form action="#" method="post" class="sugg-form">
+                <input type="text" placeholder="Enter Your Name" class="ip">
+                <input type="email" placeholder="Enter E-mail" class="ip">
+                <textarea cols="20" rows="10" placeholder="Enter Suggestion !!" class="sugg"></textarea>
+                <button type="button" class="sub-btn">Submit</button>
+
+                <div class="sosial-bar">
+                    <a href="https://instagram.com/raj__desai__58.26?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fa-brands fa-instagram raj-f-size"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100072215450073&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook raj-f-size"></i></a>
+                    <a href="https://twitter.com/rajdesai5858?t=maqpgWaiPR3VhHtSeh_8Vg&s=09" target="_blank"><i class="fa-brands fa-twitter raj-f-size"></i></a>
+                    <a href="404.html" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="404.html" target="_blank"><i class="fa-brands fa-youtube raj-f-size"></i></a>
+                </div>
+            </form>
+
+            <div class="copyrights">
+                <p>all rights can be reserved</p>
+                <p>develop by <b>raj desai</b></p>
+                <p style="color: gray;">Version : 1.0</p>                
+            </div>
+
+        </footer>
+
+    
+
+    <script src="JS/navbar.js"></script>
+    <script src="JS/home.js"></script>
+</body>
+</html>
