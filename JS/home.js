@@ -3,13 +3,13 @@ function Collage() {
 }
 
 function Bulb() {
-    window.location.replace("../projects/bulb/index.html");
+    window.location.replace("https://raj-desai-58.github.io/raj-portfolio/projects/bulb/index.html");
 }
 
 function Age() {
-    window.location.replace("../projects/age/index.html");
+    window.location.replace("https://raj-desai-58.github.io/raj-portfolio/projects/age/index.html");
 }
 
 function Calculator() {
-    window.location.replace("../projects/calculator/index.html");
+    window.location.replace("https://raj-desai-58.github.io/raj-portfolio/projects/calculator/index.html");
 }
