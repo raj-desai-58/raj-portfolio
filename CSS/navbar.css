@@ -1,0 +1,144 @@
+.ld-nav {
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+}
+
+.sd-nav {
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(233, 233, 233);
+    display: none;
+}
+
+.name {
+    width: 50%;
+    padding-left: 2rem;
+
+}
+
+.name span a {
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-shadow: 1px 1px 5px #fff;
+    animation: name-anyme 10s ease-out infinite;
+}
+
+@keyframes name-anyme {
+    0% {
+        color: red;
+    }
+
+    20% {
+        color: lime;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    60% {
+        color: red;
+    }
+
+    80% {
+        color: lime;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+.links {
+    height: 100%;
+    width: 47%;
+    /* border-bottom: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linkd-page {
+    color: purple;
+    font-weight: 500;
+    transition: .5s ease-out;
+}
+
+.linkd-page::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: skyblue;
+    display: block;
+    margin: auto;
+    transition: .5s ease-out;
+}
+
+.linkd-page:hover::after {
+    display: block;
+    width: 100%;
+
+}
+
+.linkd-page:hover {
+    color: gray;
+}
+
+#bar {
+    width: 4rem;
+}
+
+#close {
+    width: 4rem;
+    display: none;
+}
+
+#drower {
+    height: 12rem;
+    background-color: var(--primary-color);
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .ld-nav {
+        display: none;
+    }
+
+    .sd-nav {
+        display: flex;
+        padding-right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 388px) {
+    .sd-nav {
+        padding-right: .7rem;
+    }
+
+    .name span a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .name {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 282px) {
+    .name {
+        padding-left: .9rem;
+    }
+}

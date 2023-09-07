@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Roboto:ital,wght@1,900&display=swap');
+
+:root {
+    --primary-color: rgb(237, 246, 247);
+    --bg-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.u-line {
+    text-decoration: underline;
+}
