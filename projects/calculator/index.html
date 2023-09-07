@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Hear !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wraper">
+        <form action="#" method="post">
+            <input type="text" class="ip" disabled id="output" value="00">
+            <input type="number" class="ip" id="num1" placeholder="Enter First Number">
+            <input type="number" class="ip" id="num2" placeholder="Enter Second Number">
+            <select name="method" id="sel-meth" class="ip">
+                <option value="err">Select Method</option>
+                <option value="add">+   addition</option>
+                <option value="sub">-   substraction</option>
+                <option value="mul">*   multiplication</option>
+                <option value="div">/   Divison</option>
+                <option value="mod">%   Find Reminder</option>
+            </select>
+            <button type="button" class="btn" onclick="Sum();">Calculate</button>
+        </form>        
+    </div>
+
+    <a href="../../index.html#projects">
+        <img src="../../resourcess/images/home.png" alt="go to home" class="home-logo">        
+    </a>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

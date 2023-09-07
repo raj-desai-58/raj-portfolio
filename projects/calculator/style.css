@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+::placeholder {
+    font-weight: 500;
+}
+
+body {
+    background-color: #8a0b8a;
+}
+
+.wraper {
+    width: 35rem;
+    height: 25rem;
+    background-image: linear-gradient(to top left, red, blue);
+    margin: 20vh auto;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px #000;
+    animation: bganyme 2s ease-in-out infinite;
+}
+
+@keyframes bganyme {
+    50% {
+        background-image: linear-gradient(to bottom right, red, blue);
+    }
+
+    100% {
+        background-image: linear-gradient(to top left, red, blue);
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#output {
+    background-color: #fff;
+    cursor: not-allowed;
+    font-weight: 900;
+}
+
+.ip {
+    margin: 1rem 0;
+    width: 100%;
+    height: 2.5rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid green;
+}
+
+.btn {
+    width: 50%;
+    height: 2.2rem;
+    margin-top: 1.5rem;
+    border: none;
+    background-color: #0022ff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 1px 50px #000;
+    transition: .5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #8a0b8a;
+    box-shadow: 2px 1px 20px #000;
+}
+
+.home-logo {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    opacity: .8;
+    width: 5rem;
+    transition: 1s ease-out;
+}
+
+.home-logo:hover {
+    width: 5.5rem;
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .wraper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wraper {
+        width: 95%;
+        padding: 1rem 1.5rem;
+    }
+
+    .home-logo {
+        width: 3.5rem;
+        opacity: 1;
+    }
+
+    .home-logo:hover {
+        width: 4rem;
+    }
+}

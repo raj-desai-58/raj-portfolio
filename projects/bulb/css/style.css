@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.img-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    position: absolute;
+    top: 7rem;
+    right: 5rem;
+    width: 7rem;
+    height: 2.2rem;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px #efefef;
+    transition: .4s ease-out;
+}
+
+.on-bulb {
+    display: none;
+}
+
+#onbtn:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 12px;
+    box-shadow: 1px 10px 50px #99e0e6;
+}
+
+#offbtn {
+    display: none;
+}
+
+#offbtn:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 12px;
+    box-shadow: 1px 10px 50px #99e0e6;
+}
+
+audio {
+    display: none;
+}
+
+.home-logo {
+    border-radius: 50%;
+    border: 2px solid blue;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 5rem;
+    opacity: .8;
+    transition: .5s ease-in-out;
+}
+
+.home-logo:hover {
+    width: 5.2rem;
+    opacity: 1;
+
+}
+
+@media screen and (max-width: 822px) {
+    .btn {
+        top: 30rem;
+    }
+}
+
+@media screen and (max-width: 644px) {
+    .btn {
+        top: 37rem;
+        right: 15rem;
+    }
+
+    .btn-sec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-logo {
+        width: 3.2rem;
+        opacity: 1;
+    }
+
+    .home-logo:hover {
+        width: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .btn {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+    }
+
+    .on-bulb {
+        width: 100%;
+    }
+
+    .off-bulb {
+        width: 100%;
+    }
+}
